@@ -1,0 +1,24 @@
+{
+  "name": "NodeStore",
+  "version": "1.0.0",
+  "description": "* A full featured e-commerce application\r * Build out a Nodejs web server that will serve up html pages",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shownola/NodeStore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shownola/NodeStore/issues"
+  },
+  "homepage": "https://github.com/shownola/NodeStore#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
