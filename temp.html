@@ -6,3 +6,10 @@
     <button>Sign Up</button>
   </form>
 </div>
+
+
+async update(id, attrs){
+  const record = await this.getOne(id);
+  record.push(attrs);
+  await.writeAll(record);
+}
