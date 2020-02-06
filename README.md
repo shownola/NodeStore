@@ -36,3 +36,5 @@ AUTHENTICATION:
 * Create admin users with authorization
 * Setup user vs admin privileges
 * User email must be unique
+* Use cookie based authentication
+* User cookie-session library
