@@ -28,10 +28,15 @@ class UsersRepository {
 
   async writeAll(records){
     await fs.promises.writeFile(this.filename, JSON.stringify(records, null, 2));
-  };
+  }
 
   randomId(){
     return crypto.randomBytes(4).toString('hex');
+  }
+
+  async getOne(id){
+    const records = await this.getAll();
+    return records.find(record => record.id === id);
   }
 }
 
@@ -39,9 +44,10 @@ class UsersRepository {
 
 const test = async () => {
   const repo = new UsersRepository('users.json');
-  await repo.create({ email: 'test@test.com', password: 'password' });
-  const users = await repo.getAll();
-  console.log(users);
+  // await repo.create({ email: 'test@test.com', password: 'password' });
+  // const users = await repo.getAll();
+  const user = await repo.getOne('12e8dd22');
+  console.log(user);
 };
 
 test();
