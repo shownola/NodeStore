@@ -35,3 +35,4 @@ AUTHENTICATION:
 * Create sign up/login page - email, password, password confirmation and sign up button
 * Create admin users with authorization
 * Setup user vs admin privileges
+* User email must be unique
