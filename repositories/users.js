@@ -55,6 +55,22 @@ class UsersRepository {
     Object.assign(record, attrs);
     await this.writeAll(records);
   }
+
+  async getOneBy(filters){
+    const records = await this.getAll();
+    for(let record of records){
+      let found = true;
+
+      for(let key in filters){
+        if(record[key] !== filters[key]){
+          found = false;
+        }
+      }
+      if(found){
+        return record;
+      }
+    }
+  }
 }
 
 
@@ -66,8 +82,9 @@ const test = async () => {
   // const user = await repo.getOne('12e8dd22');
   // console.log(user);
   // await repo.delete('12e8dd22');
-
-  await repo.update('9f8454cd', { password: 'mypassword' });
+  // await repo.update('9f8454cd', { password: 'mypassword' });
+  const user = await repo.getOneBy({ email: 'test@test.com', password: 'mypassword' });
+  console.log(user);
 };
 
 test();
