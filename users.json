@@ -36,5 +36,10 @@
     "email": "marlin@email.com",
     "password": "318ce7367439d2018234340ff70dff2fad54ec12f2badf3ee725c17db482a3d68fc81309b2dcae4484dc9c1e3ce282e37e1cb7083c40e544093470418608415e.1344a205fc962f2b",
     "id": "494c2826"
+  },
+  {
+    "email": "test2@email.com",
+    "password": "cde6373cd95b7f087a2c6b72561fd34849c06b5db40977e41e2f372784333a1d3b1cacace71cad1cc5c8b710cd89c7e80aebaedfe7331775be416224814a532f.fb1fc9631d4571b8",
+    "id": "16fb71fe"
   }
 ]
