@@ -21,5 +21,20 @@
     "email": "bradley@email.com",
     "password": "bradley",
     "id": "69ed5c7c"
+  },
+  {
+    "email": "nina@email.com",
+    "password": "256f07b86c6f76a21edd540a27712d6d7d454bb4f04f47af113aff5393d6eac47adc5bcf8832535b17f0d3bdd053f852aa80cf316102b319449f13e884be81c8.097d5f142c7093c5",
+    "id": "3f938199"
+  },
+  {
+    "email": "kelly@email.com",
+    "password": "14042bcfb8f27b87af8f6b5bc16f8038ae88357e30b593e3b914c8083f300dea6fa4aaaa432ce4c7f326919a38f3d5a00a3563732029e6a8fa489f031782d491.1d8dd73e54bdd3a7",
+    "id": "ab6a9a1a"
+  },
+  {
+    "email": "marlin@email.com",
+    "password": "318ce7367439d2018234340ff70dff2fad54ec12f2badf3ee725c17db482a3d68fc81309b2dcae4484dc9c1e3ce282e37e1cb7083c40e544093470418608415e.1344a205fc962f2b",
+    "id": "494c2826"
   }
 ]
