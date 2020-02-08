@@ -38,3 +38,6 @@ AUTHENTICATION:
 * User email must be unique
 * Use cookie based authentication
 * User cookie-session library
+
+IMAGE UPLOAD:
+* Use Multer middleware to handle multipart/form-data for uploading images.
