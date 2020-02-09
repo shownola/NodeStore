@@ -76,5 +76,15 @@
     "email": "kelly@email.com",
     "password": "6a02a12c014a1ff3d98473061f723fd4574a071dca535b61635a17d28d622a880b885fd1b708f80830ef892d4ef08b131453d413d3aea36181f608752f1949e4.b3516adad2ce203e",
     "id": "f1aec9d1"
+  },
+  {
+    "email": "gorilla@email.com",
+    "password": "e30cc93db89ca81a705bf40f418f81456382d13ede2e9c8f357e74cc8a24f2a6d0ec1a4a5818bc7b86f43607b64909f26d1d403e7c0da8eec0400eba44c42858.3a019a2f667f17ff",
+    "id": "da6e3a69"
+  },
+  {
+    "email": "daisey@email.com",
+    "password": "d6e84333e49419c39922af90dabb39faa69f35bb8ede0dc8ea21797a9bd0dbd92fca2ce6dfd3b680c693b39b3e8003294204f6f3669b4503b04dca75ec1b9c24.b3b49d2c9f68e19f",
+    "id": "3b73ba8a"
   }
 ]

@@ -26,7 +26,7 @@ async (req, res) => {
 
   req.session.userId = user.id;
 
-  res.send('Account created!!');
+  res.redirect('/admin/products');
 });
 
 router.get('/signout', (req, res) => {
@@ -49,7 +49,7 @@ async (req, res) => {
 
   req.session.userId = user.id;
 
-  res.send('You have signed in');
+  res.redirect('/admin/products');
 });
 
 module.exports = router;
