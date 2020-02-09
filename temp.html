@@ -8,12 +8,6 @@
 </div>
 
 
-async update(id, attrs){
-  const record = await this.getOne(id);
-  record.push(attrs);
-  await.writeAll(record);
-}
-
 
 <form action=""method="POST">
   <input type="text" placeholder="Title" name="title" />
