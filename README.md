@@ -20,6 +20,7 @@ CART PAGE:
 * Ability to remove the item from the cart
 * Total price of all items
 * Purchase button
+* Ability to purchase without signing in
 
 ADMIN PANEL:
 * Ability to create, edit and delete products
